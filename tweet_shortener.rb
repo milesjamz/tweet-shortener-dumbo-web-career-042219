@@ -43,6 +43,6 @@ def shortened_tweet_truncator(tweets)
       word_substituter(tweets)
       tweets[0..136] + "..."
    else
-      tweet
+      tweets
    end
 end
